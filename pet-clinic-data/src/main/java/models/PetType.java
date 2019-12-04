@@ -1,4 +1,4 @@
-package hoangnguyen.springpetclinic.models;
+package models;
 
 public class PetType {
     private String name;
