@@ -1,6 +1,8 @@
 package hoangnguyen.springpetclinic.services;
 
 
-public interface PetService extends CrudService<PetService, Long>{
+import hoangnguyen.springpetclinic.models.Pet;
+
+public interface PetService extends CrudService<Pet, Long>{
 
 }
