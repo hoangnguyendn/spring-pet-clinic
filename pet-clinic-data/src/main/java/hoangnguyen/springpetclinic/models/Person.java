@@ -1,4 +1,4 @@
-package models;
+package hoangnguyen.springpetclinic.models;
 
 public class Person {
     private String fistName;
