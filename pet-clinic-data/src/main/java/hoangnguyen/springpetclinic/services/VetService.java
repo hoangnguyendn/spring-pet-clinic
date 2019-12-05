@@ -1,13 +1,5 @@
 package hoangnguyen.springpetclinic.services;
 
-import hoangnguyen.springpetclinic.models.Vet;
+public interface VetService extends CrudService<VetService, Long> {
 
-import java.util.Set;
-
-public interface VetService {
-    Vet findById(long id);
-
-    Vet save(Vet vet);
-
-    Set<Vet> findAll();
 }
